@@ -1,8 +1,11 @@
 import React from 'react'
+import RecipeApi from './RecipeApp/RecipeApi'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <RecipeApi/>
+      </div>
   )
 }
 
